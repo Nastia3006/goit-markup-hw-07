@@ -272,14 +272,13 @@ align-items: center;
 }
 @media only screen and (max-width: 480px) {
   .hero-image {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+   
     background-image: linear-gradient(
     rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)
   ), url(../images/_mob@1x.jpg);
   }
+
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .hero-image {
       background-image: linear-gradient(
@@ -292,9 +291,7 @@ align-items: center;
 
 @media only screen and (min-width: 481px) and (max-width: 767px) {
   .hero-image {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    
     background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
