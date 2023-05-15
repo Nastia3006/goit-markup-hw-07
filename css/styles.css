@@ -309,7 +309,6 @@ align-items: center;
 
 .overlay {
   max-width: 1440px;
-  height: 600px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -652,8 +651,8 @@ input[type='checkbox']:checked
 
 @media only screen and (min-width: 1158px) {
   .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 188px;
+    padding-bottom: 188px;
   }
 }
 
