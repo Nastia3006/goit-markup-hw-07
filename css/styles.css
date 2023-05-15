@@ -301,14 +301,14 @@ align-items: center;
     background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
-    ), url(../images/_tab@1x.jpg);
+    ), url(../images/hero-tab1.jpg);
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .hero-image {
       background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
-      ), url(../images/_tab@2x.jpg);
+      ), url(../images/hero-tab2.jpg);
     }
   }
 }
@@ -328,14 +328,14 @@ align-items: center;
     background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
-    ), url(../images/_tab@1x.jpg);
+    ), url(../images/hero-tab1.jpg);
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .overlay {
       background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
-      ), url(../images/_tab@2x.jpg);
+      ), url(../images/hero-tab2.jpg);
     }
   }
 }
@@ -344,14 +344,14 @@ align-items: center;
     background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
-    ), url(../images/_desktop@1x.jpg);
+    ), url(../images/hero-dec1.jpg);
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .overlay {
       background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
-      ), url(../images/_desktop@2x.jpg);
+      ), url(../images/hero-dec2.jpg);
     }
   }
 }
