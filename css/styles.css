@@ -70,7 +70,6 @@ ul {
   align-items: center;
  text-transform: uppercase;
   text-decoration: none;
-  margin-right: 249px;
 
   
 }
@@ -206,7 +205,8 @@ align-items: center;
 @media only screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
-    
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -237,10 +237,7 @@ align-items: center;
   align-items: center;
   margin-right: auto;
 }
-.logo-item {
-  margin-right: 249px;
-  
-}
+
 @media only screen and (min-width: 768px) {
   .logo-item {
     margin-right: 120px;    
@@ -275,6 +272,11 @@ align-items: center;
   background-color: var(--grey);
   padding: 188px 0;
   
+}
+@media only screen and (max-width:448px) {
+  .hero-image {
+    padding: 112px 0;
+  }
 }
 @media only screen and (max-width: 480px) {
   .hero-image {
@@ -465,9 +467,10 @@ text-transform: capitalize;
 }
 @media only screen and (max-width: 448px) {
   .modal {
-    width: 392px;
+    width: calc(100% - 30px);
   }
 }
+
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) rotate(360deg) scale(0.2);
   opacity: 0;
@@ -675,15 +678,20 @@ input[type='checkbox']:checked
 .title {
   margin-top: 0;
   margin-bottom: 8px;
-  font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
+  font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--grey);
   text-transform: capitalize;
 }
 
-
+@media only screen and (min-width: 768px) {
+  .title {
+  font-size: 20px;
+  line-height: 1.2;
+  }
+}
 @media only screen and (min-width: 1157px) {
   .title {
     font-weight: 500;
@@ -703,6 +711,7 @@ line-height: 1.11;
 @media only screen and (min-width: 1158px) {
   .title-txt {
     font-weight: 400;
+    margin-bottom: 8px;
 
   }
 }
@@ -1031,11 +1040,7 @@ flex-wrap: wrap;
   margin-right: 0;
 }
 
-@media only screen and (max-width: 1157px) {
-  .ftr-item {
-    margin-right: 16px;
-  }
-}
+
 @media only screen and (max-width: 767px) {
   .container-icon-footer {
     text-align: center;
@@ -1156,6 +1161,11 @@ width: 582px;  }
 
 }
 
+@media only screen and (max-width: 448px) and (min-width:321px) {
+  .footer-input {
+    width: 398px;
+  }
+}
 
 
 .footer-input::placeholder {
@@ -1472,6 +1482,11 @@ img {
     color: #4d5ae5;
     margin-bottom: 40px;
 }
+@media only screen and (max-width: 320px) {
+  .mobile-contact-tel {
+    font-size:28px;
+  }
+}
 .mobile-contact-mail{
   font-style: normal;
     font-weight: 500;
@@ -1489,4 +1504,9 @@ img {
   display: flex;
   gap: 56px;
   padding-left: 0;
+}
+@media only screen and (max-width: 320px) {
+  .mobile-socials {
+    gap:26px;
+  }
 }
